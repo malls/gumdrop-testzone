@@ -1,0 +1,9 @@
+[package]
+name = "gumdrop-testzone"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gumdrop = { path = "/Users/work/Code/sundae/gumdrop/gumdrop", features = ["archive_getter", "cbor_struct"] }
