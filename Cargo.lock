@@ -169,15 +169,15 @@ dependencies = [
 ]
 
 [[package]]
-name = "gumdrop"
+name = "gummiworm"
 version = "0.1.0"
 dependencies = [
- "gumdrop-archive-getter",
- "gumdrop-cbor-struct",
+ "gummiworm-archive-getter",
+ "gummiworm-cbor-struct",
 ]
 
 [[package]]
-name = "gumdrop-archive-getter"
+name = "gummiworm-archive-getter"
 version = "0.1.0"
 dependencies = [
  "reqwest",
@@ -185,14 +185,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "gumdrop-cbor-struct"
+name = "gummiworm-cbor-struct"
 version = "0.1.0"
 
 [[package]]
-name = "gumdrop-testzone"
+name = "gummiworm-testzone"
 version = "0.1.0"
 dependencies = [
- "gumdrop",
+ "gummiworm",
  "serde_json",
  "tokio",
 ]
